@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711DD9161CBD85370016ED95 /* ChatComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711DD90C1CBD85370016ED95 /* ChatComposeViewController.swift */; };
+		711DD9171CBD85370016ED95 /* ChatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711DD90D1CBD85370016ED95 /* ChatDetailViewController.swift */; };
+		711DD9181CBD85370016ED95 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711DD90E1CBD85370016ED95 /* ChatViewController.swift */; };
+		711DD9191CBD85370016ED95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711DD90F1CBD85370016ED95 /* Images.xcassets */; };
+		711DD91A1CBD85370016ED95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711DD9101CBD85370016ED95 /* LoginViewController.swift */; };
+		711DD91B1CBD85370016ED95 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711DD9111CBD85370016ED95 /* MoreTableViewController.swift */; };
+		711DD91C1CBD85370016ED95 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711DD9121CBD85370016ED95 /* NotesViewController.swift */; };
+		711DD91D1CBD85370016ED95 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711DD9131CBD85370016ED95 /* ProjectsViewController.swift */; };
+		711DD91E1CBD85370016ED95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711DD9141CBD85370016ED95 /* ViewController.swift */; };
+		711DD9211CBD85990016ED95 /* kibosupportStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711DD91F1CBD85990016ED95 /* kibosupportStoryboard.storyboard */; };
+		714566ED1CBD8263006A73A7 /* kibosupportSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 714566EC1CBD8263006A73A7 /* kibosupportSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		714566F41CBD8263006A73A7 /* kibosupportSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714566E91CBD8263006A73A7 /* kibosupportSDK.framework */; };
+		714566F91CBD8263006A73A7 /* kibosupportSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714566F81CBD8263006A73A7 /* kibosupportSDKTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		714566F51CBD8263006A73A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714566E01CBD8263006A73A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 714566E81CBD8263006A73A7;
+			remoteInfo = kibcosupportSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		711DD90B1CBD85370016ED95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		711DD90C1CBD85370016ED95 /* ChatComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatComposeViewController.swift; sourceTree = "<group>"; };
+		711DD90D1CBD85370016ED95 /* ChatDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailViewController.swift; sourceTree = "<group>"; };
+		711DD90E1CBD85370016ED95 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		711DD90F1CBD85370016ED95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		711DD9101CBD85370016ED95 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		711DD9111CBD85370016ED95 /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		711DD9121CBD85370016ED95 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		711DD9131CBD85370016ED95 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		711DD9141CBD85370016ED95 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		711DD9201CBD85990016ED95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/kibosupportStoryboard.storyboard; sourceTree = "<group>"; };
+		714566E91CBD8263006A73A7 /* kibosupportSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kibosupportSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714566EC1CBD8263006A73A7 /* kibosupportSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kibosupportSDK.h; sourceTree = "<group>"; };
+		714566EE1CBD8263006A73A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714566F31CBD8263006A73A7 /* kibosupportSDK.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kibosupportSDK.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		714566F81CBD8263006A73A7 /* kibosupportSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kibosupportSDKTests.swift; sourceTree = "<group>"; };
+		714566FA1CBD8263006A73A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714566E51CBD8263006A73A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714566F01CBD8263006A73A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714566F41CBD8263006A73A7 /* kibosupportSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711DD9091CBD85370016ED95 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				711DD90A1CBD85370016ED95 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		714566DF1CBD8263006A73A7 = {
+			isa = PBXGroup;
+			children = (
+				714566EB1CBD8263006A73A7 /* kibcosupportSDK */,
+				714566F71CBD8263006A73A7 /* kibcosupportSDKTests */,
+				714566EA1CBD8263006A73A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		714566EA1CBD8263006A73A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714566E91CBD8263006A73A7 /* kibosupportSDK.framework */,
+				714566F31CBD8263006A73A7 /* kibosupportSDK.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714566EB1CBD8263006A73A7 /* kibcosupportSDK */ = {
+			isa = PBXGroup;
+			children = (
+				711DD9091CBD85370016ED95 /* Base.lproj */,
+				711DD90C1CBD85370016ED95 /* ChatComposeViewController.swift */,
+				711DD90D1CBD85370016ED95 /* ChatDetailViewController.swift */,
+				711DD90E1CBD85370016ED95 /* ChatViewController.swift */,
+				711DD90F1CBD85370016ED95 /* Images.xcassets */,
+				711DD9101CBD85370016ED95 /* LoginViewController.swift */,
+				711DD9111CBD85370016ED95 /* MoreTableViewController.swift */,
+				711DD9121CBD85370016ED95 /* NotesViewController.swift */,
+				711DD9131CBD85370016ED95 /* ProjectsViewController.swift */,
+				711DD9141CBD85370016ED95 /* ViewController.swift */,
+				714566EC1CBD8263006A73A7 /* kibosupportSDK.h */,
+				711DD91F1CBD85990016ED95 /* kibosupportStoryboard.storyboard */,
+				714566EE1CBD8263006A73A7 /* Info.plist */,
+			);
+			path = kibcosupportSDK;
+			sourceTree = "<group>";
+		};
+		714566F71CBD8263006A73A7 /* kibcosupportSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				714566F81CBD8263006A73A7 /* kibosupportSDKTests.swift */,
+				714566FA1CBD8263006A73A7 /* Info.plist */,
+			);
+			path = kibcosupportSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		714566E61CBD8263006A73A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714566ED1CBD8263006A73A7 /* kibosupportSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		714566E81CBD8263006A73A7 /* kibosupportSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714566FD1CBD8263006A73A7 /* Build configuration list for PBXNativeTarget "kibosupportSDK" */;
+			buildPhases = (
+				714566E41CBD8263006A73A7 /* Sources */,
+				714566E51CBD8263006A73A7 /* Frameworks */,
+				714566E61CBD8263006A73A7 /* Headers */,
+				714566E71CBD8263006A73A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kibosupportSDK;
+			productName = kibcosupportSDK;
+			productReference = 714566E91CBD8263006A73A7 /* kibosupportSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		714566F21CBD8263006A73A7 /* kibosupportSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714567001CBD8263006A73A7 /* Build configuration list for PBXNativeTarget "kibosupportSDKTests" */;
+			buildPhases = (
+				714566EF1CBD8263006A73A7 /* Sources */,
+				714566F01CBD8263006A73A7 /* Frameworks */,
+				714566F11CBD8263006A73A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714566F61CBD8263006A73A7 /* PBXTargetDependency */,
+			);
+			name = kibosupportSDKTests;
+			productName = kibcosupportSDKTests;
+			productReference = 714566F31CBD8263006A73A7 /* kibosupportSDK.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714566E01CBD8263006A73A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Cloudkibo;
+				TargetAttributes = {
+					714566E81CBD8263006A73A7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					714566F21CBD8263006A73A7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 714566E31CBD8263006A73A7 /* Build configuration list for PBXProject "kibosupportSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714566DF1CBD8263006A73A7;
+			productRefGroup = 714566EA1CBD8263006A73A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714566E81CBD8263006A73A7 /* kibosupportSDK */,
+				714566F21CBD8263006A73A7 /* kibosupportSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714566E71CBD8263006A73A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711DD9211CBD85990016ED95 /* kibosupportStoryboard.storyboard in Resources */,
+				711DD9191CBD85370016ED95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714566F11CBD8263006A73A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714566E41CBD8263006A73A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711DD91A1CBD85370016ED95 /* LoginViewController.swift in Sources */,
+				711DD9161CBD85370016ED95 /* ChatComposeViewController.swift in Sources */,
+				711DD91C1CBD85370016ED95 /* NotesViewController.swift in Sources */,
+				711DD9181CBD85370016ED95 /* ChatViewController.swift in Sources */,
+				711DD9171CBD85370016ED95 /* ChatDetailViewController.swift in Sources */,
+				711DD91B1CBD85370016ED95 /* MoreTableViewController.swift in Sources */,
+				711DD91E1CBD85370016ED95 /* ViewController.swift in Sources */,
+				711DD91D1CBD85370016ED95 /* ProjectsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714566EF1CBD8263006A73A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714566F91CBD8263006A73A7 /* kibosupportSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		714566F61CBD8263006A73A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 714566E81CBD8263006A73A7 /* kibosupportSDK */;
+			targetProxy = 714566F51CBD8263006A73A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		711DD90A1CBD85370016ED95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711DD90B1CBD85370016ED95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		711DD91F1CBD85990016ED95 /* kibosupportStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711DD9201CBD85990016ED95 /* Base */,
+			);
+			name = kibosupportStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		714566FB1CBD8263006A73A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		714566FC1CBD8263006A73A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		714566FE1CBD8263006A73A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = kibcosupportSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kibosupport.kibcosupportSDK;
+				PRODUCT_NAME = kibosupportSDK;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		714566FF1CBD8263006A73A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = kibcosupportSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kibosupport.kibcosupportSDK;
+				PRODUCT_NAME = kibosupportSDK;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		714567011CBD8263006A73A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kibcosupportSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kibosupport.kibcosupportSDKTests;
+				PRODUCT_NAME = kibosupportSDK;
+			};
+			name = Debug;
+		};
+		714567021CBD8263006A73A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kibcosupportSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kibosupport.kibcosupportSDKTests;
+				PRODUCT_NAME = kibosupportSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714566E31CBD8263006A73A7 /* Build configuration list for PBXProject "kibosupportSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714566FB1CBD8263006A73A7 /* Debug */,
+				714566FC1CBD8263006A73A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714566FD1CBD8263006A73A7 /* Build configuration list for PBXNativeTarget "kibosupportSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714566FE1CBD8263006A73A7 /* Debug */,
+				714566FF1CBD8263006A73A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714567001CBD8263006A73A7 /* Build configuration list for PBXNativeTarget "kibosupportSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714567011CBD8263006A73A7 /* Debug */,
+				714567021CBD8263006A73A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 714566E01CBD8263006A73A7 /* Project object */;
+}
